@@ -1,0 +1,51 @@
+/* Styles specific to the map page to make it full-screen and place elements vertically */
+
+/* Ensure root elements can fill the viewport */
+html, body, #root {
+  height: 100%;
+}
+
+/* Make the map page cover the whole viewport so it ignores page-level max-width/padding */
+.map-page {
+  position: fixed; /* cover viewport */
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+.map-header {
+  padding: 1rem 1.25rem;
+  /* keep header height natural */
+}
+
+.map-main {
+  flex: 1 1 auto; /* grow to fill remaining space */
+  min-height: 0; /* allow child to scroll/size correctly inside flex */
+  width: 100%;
+}
+
+/* Leaflet map container inside react-leaflet has class leaflet-container, ensure it fills .map-main */
+.map-main .leaflet-container {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.map-footer {
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* move button to the end (right side) */
+}
+
+/* Keep existing .card padding but remove extra margins if any */
+.map-footer .card {
+  padding: 0.5rem 0;
+}
+
+/* Make button look consistent and not stretch */
+.map-footer button {
+  min-width: 120px;
+}
