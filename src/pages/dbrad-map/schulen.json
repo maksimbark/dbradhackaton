@@ -1,0 +1,2513 @@
+[
+  {
+    "geo_point_2d": {
+      "lon": 13.0144209944,
+      "lat": 52.3756799991
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.014420994378614,
+          52.375679999091716
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Berufliche Schule f\u00fcr Sport und Gesundheit der Europ\u00e4ischen Sportakademie des Landes Brandenburg",
+    "schulnumme": "F26",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Am Luftschiffhafen 1",
+    "plz": 14471,
+    "ort": "Potsdam",
+    "x_e89_rbs": 364839.8,
+    "y_e89_rbs": 5804678.996,
+    "planungsra": "304",
+    "sozialraum": "III",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0217599931,
+      "lat": 52.3818080037
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.021759993117623,
+          52.38180800365714
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Haus der Athleten Potsdam - Wohnheim der Sportschule Potsdam Friedrich-Ludwig-Jahn in Tr\u00e4gerschaft der Luftschiffhafen GmbH",
+    "schulnumme": "WH3",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Zeppelinstra\u00dfe 114",
+    "plz": 14471,
+    "ort": "Potsdam",
+    "x_e89_rbs": 365357.967,
+    "y_e89_rbs": 5805346.82,
+    "planungsra": "304",
+    "sozialraum": "III",
+    "schulform": "WH",
+    "trager": "Luftschiffhafen gmbH"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0229236255,
+      "lat": 52.3893192093
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.022923625496425,
+          52.389319209254296
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Zeppelin-Grundschule",
+    "schulnumme": "23",
+    "schulnum_1": "105429",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Haeckelstra\u00dfe 74",
+    "plz": 14471,
+    "ort": "Potsdam",
+    "x_e89_rbs": 365459.9999,
+    "y_e89_rbs": 5806180.0001,
+    "planungsra": "304",
+    "sozialraum": "III",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0961691273,
+      "lat": 52.3675033603
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.096169127327975,
+          52.3675033602925
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Waldstadt-Grundschule",
+    "schulnumme": "27",
+    "schulnum_1": "105430",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Friedrich-Wolf-Stra\u00dfe 12",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370379.9998,
+    "y_e89_rbs": 5803620.0,
+    "planungsra": "603",
+    "sozialraum": "VI",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0466353478,
+      "lat": 52.4114734055
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.046635347817583,
+          52.411473405496935
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule im Bornstedter Feld",
+    "schulnumme": "3",
+    "schulnum_1": "106677",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Jakob-von-Gundling-Stra\u00dfe 25",
+    "plz": 14469,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367140.0,
+    "y_e89_rbs": 5808600.0001,
+    "planungsra": "201",
+    "sozialraum": "II",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1162432309,
+      "lat": 52.3958517919
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.116243230851817,
+          52.39585179188663
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Schule am Griebnitzsee",
+    "schulnumme": "33",
+    "schulnum_1": "112999",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Domstra\u00dfe 14b",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 371828.7299,
+    "y_e89_rbs": 5806736.9801,
+    "planungsra": "402",
+    "sozialraum": "IV",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.134446109,
+      "lat": 52.3759366388
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.134446108958961,
+          52.37593663877914
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule Am Pappelhain",
+    "schulnumme": "36/45",
+    "schulnum_1": "105363",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Galileistra\u00dfe 6",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 373009.9998,
+    "y_e89_rbs": 5804490.0,
+    "planungsra": "501",
+    "sozialraum": "V",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0959873333,
+      "lat": 52.3785601578
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.09598733327262,
+          52.37856015778397
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Gesamtschule Am Schilfhof",
+    "schulnumme": "49",
+    "schulnum_1": "113451",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Schilfhof 23-25",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370399.9998,
+    "y_e89_rbs": 5804850.0001,
+    "planungsra": "602",
+    "sozialraum": "VI",
+    "schulform": "O/OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0049403048,
+      "lat": 52.4719203733
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.004940304763227,
+          52.47192037331484
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Regenbogenschule Fahrland",
+    "schulnumme": "7",
+    "schulnum_1": "112082",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Ketziner Stra\u00dfe 90",
+    "plz": 14476,
+    "ort": "Potsdam",
+    "x_e89_rbs": 364490.0,
+    "y_e89_rbs": 5815399.9999,
+    "planungsra": "102",
+    "sozialraum": "I",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1207687844,
+      "lat": 52.3831829352
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.120768784381909,
+          52.38318293519882
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Neue Gesamtschule Babelsberg der ASG - anerkannte Ersatzschule -",
+    "schulnumme": "F13",
+    "schulnum_1": "113440",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Gro\u00dfbeerenstra\u00dfe 189",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372099.9999,
+    "y_e89_rbs": 5805320.0001,
+    "planungsra": "403",
+    "sozialraum": "IV",
+    "schulform": "O/OG",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 12.9819113791,
+      "lat": 52.4122894202
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          12.981911379112086,
+          52.412289420180336
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "AWO Grundschule Marie Juchacz Potsdam - genehmigte Ersatzschule -",
+    "schulnumme": "F2",
+    "schulnum_1": "106732",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "In der Feldmark 28",
+    "plz": 14476,
+    "ort": "Potsdam",
+    "x_e89_rbs": 362740.7275,
+    "y_e89_rbs": 5808811.6869,
+    "planungsra": "202",
+    "sozialraum": "II",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1204559979,
+      "lat": 52.3827510023
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.120455997947044,
+          52.38275100234344
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Medienschule Babelsberg, BFS f\u00fcr Medien und Kommunikation mit anerkannten Bildungsg\u00e4ngen, FOS - einj\u00e4hrig, anerkannte Ersatzschule in der FR Gestaltung",
+    "schulnumme": "F25",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Gro\u00dfbeerenstr. 189",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372077.465,
+    "y_e89_rbs": 5805272.516,
+    "planungsra": "403",
+    "sozialraum": "IV",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1317960001,
+      "lat": 52.3803690025
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.131796000146402,
+          52.38036900248376
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Fachschule Sozialwesen in der Fachrichtung Sozialp\u00e4dagogik des AWO Bezirksverb. Potsdam e.V.",
+    "schulnumme": "F27",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "R\u00f6hrenstr. 6",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372842.356,
+    "y_e89_rbs": 5804987.602,
+    "planungsra": "501",
+    "sozialraum": "V",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0770170039,
+      "lat": 52.4093369987
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.077017003908386,
+          52.40933699867574
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Oberstufenzentrum \"Johanna Just\"",
+    "schulnumme": "III",
+    "schulnum_1": "200396",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Berliner Stra\u00dfe 114-115",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 369199.917,
+    "y_e89_rbs": 5808306.993,
+    "planungsra": "301",
+    "sozialraum": "III",
+    "schulform": "OSZ",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1242409962,
+      "lat": 52.3799339962
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.12424099620294,
+          52.37993399616898
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Schulzentrum am Stern",
+    "schulnumme": "29",
+    "schulnum_1": "150010",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Gagarinstra\u00dfe 5-7",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372326.923,
+    "y_e89_rbs": 5804952.534,
+    "planungsra": "501",
+    "sozialraum": "V",
+    "schulform": "G/O/OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0528447919,
+      "lat": 52.4198786004
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.05284479187009,
+          52.4198786004065
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Leonardo-da-Vinci-Gesamtschule",
+    "schulnumme": "32",
+    "schulnum_1": "113426",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Esplanade 5",
+    "plz": 14469,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367587.4841,
+    "y_e89_rbs": 5809523.3833,
+    "planungsra": "201",
+    "sozialraum": "II",
+    "schulform": "O/OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0204630705,
+      "lat": 52.3819047945
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.020463070530784,
+          52.38190479449422
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Sportschule Potsdam \"Friedrich Ludwig Jahn\"",
+    "schulnumme": "55",
+    "schulnum_1": "115540",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Zeppelinstra\u00dfe 114-117",
+    "plz": 14471,
+    "ort": "Potsdam",
+    "x_e89_rbs": 365270.0001,
+    "y_e89_rbs": 5805360.0,
+    "planungsra": "304",
+    "sozialraum": "III",
+    "schulform": "O/OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0320667828,
+      "lat": 52.3820087041
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.032066782843208,
+          52.38200870407029
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Evangelisches Gymnasium Hermannswerder",
+    "schulnumme": "F15",
+    "schulnum_1": "120832",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Hermannswerder Haus 18",
+    "plz": 14473,
+    "ort": "Potsdam",
+    "x_e89_rbs": 366060.0,
+    "y_e89_rbs": 5805350.0,
+    "planungsra": "601",
+    "sozialraum": "VI",
+    "schulform": "OG",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1436059147,
+      "lat": 52.3677187288
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.143605914700636,
+          52.3677187287958
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Schiller-Gymnasium",
+    "schulnumme": "F18",
+    "schulnum_1": "121113",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Fritz-Lang-Stra\u00dfe 15",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 373609.9999,
+    "y_e89_rbs": 5803560.0001,
+    "planungsra": "502",
+    "sozialraum": "V",
+    "schulform": "OG",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1177800014,
+      "lat": 52.382933998
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.117780001378401,
+          52.38293399795271
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "AGUS / GADAT Berufliche Schule Potsdam FS f\u00fcr Sozialwesen / FR Sozialp\u00e4d.",
+    "schulnumme": "F29",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Wetzlarer Str. 22",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 371895.882,
+    "y_e89_rbs": 5805297.605,
+    "planungsra": "403",
+    "sozialraum": "IV",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0027676916,
+      "lat": 52.4223395774
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.002767691560337,
+          52.4223395773709
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule Bornim",
+    "schulnumme": "11",
+    "schulnum_1": "106720",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Potsdamer Str. 90",
+    "plz": 14469,
+    "ort": "Potsdam",
+    "x_e89_rbs": 364190.0001,
+    "y_e89_rbs": 5809890.0001,
+    "planungsra": "201",
+    "sozialraum": "II",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0378778855,
+      "lat": 52.3967618215
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.037877885537617,
+          52.396761821527186
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "K\u00e4the-Kollwitz-Oberschule",
+    "schulnumme": "13",
+    "schulnum_1": "130734",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Clara-Zetkin-Stra\u00dfe 11",
+    "plz": 14471,
+    "ort": "Potsdam",
+    "x_e89_rbs": 366500.0,
+    "y_e89_rbs": 5806980.0002,
+    "planungsra": "303",
+    "sozialraum": "III",
+    "schulform": "S",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0509070046,
+      "lat": 52.4195549988
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.050907004624637,
+          52.41955499883687
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Schule am Schloss",
+    "schulnumme": "28",
+    "schulnum_1": "160064",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Georg-Hermann-Allee/Esplanade 5",
+    "plz": 14469,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367454.751,
+    "y_e89_rbs": 5809490.946,
+    "planungsra": "201",
+    "sozialraum": "II",
+    "schulform": "O/OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0224870763,
+      "lat": 52.3892219873
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.022487076326518,
+          52.38922198728718
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Hannah-Arendt-Gymnasium",
+    "schulnumme": "5",
+    "schulnum_1": "121356",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Haeckelstra\u00dfe 72",
+    "plz": 14471,
+    "ort": "Potsdam",
+    "x_e89_rbs": 365430.0,
+    "y_e89_rbs": 5806170.0001,
+    "planungsra": "304",
+    "sozialraum": "III",
+    "schulform": "OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0503214963,
+      "lat": 52.3967611985
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.050321496334915,
+          52.39676119847987
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Voltaireschule Gesamtschulcampus mit gymnasialem Bildungsgang",
+    "schulnumme": "9",
+    "schulnum_1": "113050",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Lindenstra\u00dfe 32-33",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367346.5602,
+    "y_e89_rbs": 5806957.0266,
+    "planungsra": "302",
+    "sozialraum": "III",
+    "schulform": "O/OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1278966063,
+      "lat": 52.3640540415
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.12789660629176,
+          52.364054041485105
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Schiller Grundschule im Sternfeld anerkannte Ersatzschule",
+    "schulnumme": "F10",
+    "schulnum_1": "106306",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Sternstra\u00dfe 68",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372529.9999,
+    "y_e89_rbs": 5803180.0,
+    "planungsra": "502",
+    "sozialraum": "V",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0938712202,
+      "lat": 52.3594637293
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.093871220208836,
+          52.35946372930775
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Aktive Schule Potsdam Grundschule",
+    "schulnumme": "F1",
+    "schulnum_1": "106320",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Liefelds Grund 23-25",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370199.9998,
+    "y_e89_rbs": 5802730.0,
+    "planungsra": "604",
+    "sozialraum": "VI",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1153794171,
+      "lat": 52.3958651753
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.115379417084721,
+          52.39586517525741
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Katholische Marienschule Potsdam, Gymnasium anerkannte Ersatzschule",
+    "schulnumme": "F16",
+    "schulnum_1": "121265",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Espengrund 10",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 371770.0,
+    "y_e89_rbs": 5806740.0002,
+    "planungsra": "402",
+    "sozialraum": "IV",
+    "schulform": "OG",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0341668017,
+      "lat": 52.3942723882
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.03416680172977,
+          52.39427238820107
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Gerhart-Hauptmann-Grundschule Potsdam",
+    "schulnumme": "12",
+    "schulnum_1": "105478",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Carl-von-Ossietzky-Stra\u00dfe 37",
+    "plz": 14471,
+    "ort": "Potsdam",
+    "x_e89_rbs": 366239.9998,
+    "y_e89_rbs": 5806710.0002,
+    "planungsra": "303",
+    "sozialraum": "III",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0565749936,
+      "lat": 52.4267100015
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.056574993588299,
+          52.42671000154609
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule Am Jungfernsee",
+    "schulnumme": "17",
+    "schulnum_1": "106770",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Fritz-von-der-Lancken-Stra\u00dfe 2",
+    "plz": 14469,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367861.556,
+    "y_e89_rbs": 5810276.307,
+    "planungsra": "201",
+    "sozialraum": "II",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0904200032,
+      "lat": 52.3609550029
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.090420003179128,
+          52.36095500286076
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Fr\u00f6belschule Schule mit dem sonderp\u00e4dagogischen F\u00f6rderschwerpunkt emotionale und soziale Entwicklung",
+    "schulnumme": "18",
+    "schulnum_1": "401250",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Zum Teufelssee 6",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 369969.386,
+    "y_e89_rbs": 5802902.049,
+    "planungsra": "604",
+    "sozialraum": "VI",
+    "schulform": "F",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0767453057,
+      "lat": 52.3953326699
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.076745305693443,
+          52.39533266986012
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule am Humboldtring",
+    "schulnumme": "37",
+    "schulnum_1": "105405",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Humboldtring 15/17",
+    "plz": 14473,
+    "ort": "Potsdam",
+    "x_e89_rbs": 369140.0,
+    "y_e89_rbs": 5806750.0002,
+    "planungsra": "401",
+    "sozialraum": "IV",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0918897404,
+      "lat": 52.3611401604
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.091889740399631,
+          52.36114016039783
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Oberschule Theodor Fontane mit Primarstufe",
+    "schulnumme": "51",
+    "schulnum_1": "113001",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Zum Teufelssee 4",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370069.9999,
+    "y_e89_rbs": 5802920.0001,
+    "planungsra": "604",
+    "sozialraum": "VI",
+    "schulform": "G/S",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0793442016,
+      "lat": 52.3727159663
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.0793442016208,
+          52.372715966277035
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Alfred-Nobel-Gesamtschule Potsdam - anerkannte Ersatzschule -",
+    "schulnumme": "F12",
+    "schulnum_1": "113438",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Ravensbergweg 30",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 369249.9999,
+    "y_e89_rbs": 5804230.0001,
+    "planungsra": "601",
+    "sozialraum": "VI",
+    "schulform": "O/OG",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1438650006,
+      "lat": 52.3677850022
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.143865000606336,
+          52.367785002244766
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Gesamtschule Potsdam - Drewitzer Modellschule - , genehmigte Ersatzschule, anerkannt in der Sekundarstufe I",
+    "schulnumme": "F14",
+    "schulnum_1": "160015",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Fritz-Lang-Stra\u00dfe 15",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 373627.827,
+    "y_e89_rbs": 5803566.918,
+    "planungsra": "502",
+    "sozialraum": "V",
+    "schulform": "O/OG",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0649719964,
+      "lat": 52.4017709965
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.06497199636682,
+          52.40177099648644
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Klinikum Ernst von Bergmann gGmbH Gesundheitsakademie",
+    "schulnumme": "F23",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Charlottenstr. 72",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 368358.177,
+    "y_e89_rbs": 5807487.408,
+    "planungsra": "303",
+    "sozialraum": "III",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1007937688,
+      "lat": 52.3761198533
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.100793768829698,
+          52.37611985329216
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Freie Schule Potsdam des Vereins Freie Schule Potsdam e.V.",
+    "schulnumme": "F5",
+    "schulnum_1": "106010",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Bisamkiez 28",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370719.9999,
+    "y_e89_rbs": 5804570.0002,
+    "planungsra": "602",
+    "sozialraum": "VI",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0320699973,
+      "lat": 52.3818730006
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.03206999728415,
+          52.381873000595924
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Evangelisches Internat der Hoffbauer gGmbH",
+    "schulnumme": "WH4",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Hermannswerder, Haus 18",
+    "plz": 14473,
+    "ort": "Potsdam",
+    "x_e89_rbs": 366059.808,
+    "y_e89_rbs": 5805334.902,
+    "planungsra": "601",
+    "sozialraum": "VI",
+    "schulform": "WH",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0133901487,
+      "lat": 52.3888895673
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.013390148720637,
+          52.38888956734544
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Montessori-Oberschule mit Primarstufe",
+    "schulnumme": "22",
+    "schulnum_1": "112963",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Schl\u00fcterstra\u00dfe 2 - 4",
+    "plz": 14471,
+    "ort": "Potsdam",
+    "x_e89_rbs": 364810.0001,
+    "y_e89_rbs": 5806150.0001,
+    "planungsra": "304",
+    "sozialraum": "III",
+    "schulform": "G/S",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0990659948,
+      "lat": 52.3724579966
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.09906599476479,
+          52.37245799660563
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Wilhelm-von-T\u00fcrk-Schule",
+    "schulnumme": "42/44",
+    "schulnum_1": "401298",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Bisamkiez 107-111",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370591.695,
+    "y_e89_rbs": 5804165.839,
+    "planungsra": "602",
+    "sozialraum": "VI",
+    "schulform": "F",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1370046353,
+      "lat": 52.3640181816
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.137004635265193,
+          52.36401818157263
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Friedrich-Wilhelm-von-Steuben-Gesamtschule",
+    "schulnumme": "46",
+    "schulnum_1": "113049",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Ricarda-Huch-Stra\u00dfe 23-27",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 373149.9999,
+    "y_e89_rbs": 5803160.0,
+    "planungsra": "503",
+    "sozialraum": "V",
+    "schulform": "O/OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0601860036,
+      "lat": 52.3856860041
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.060186003597494,
+          52.38568600405393
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Comenius-Schule Schule mit dem sonderp\u00e4dagogischen F\u00f6rderschwerpunkt \"geistige Entwicklung\"",
+    "schulnumme": "53",
+    "schulnum_1": "401274",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Brauhausberg 10",
+    "plz": 14473,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367984.614,
+    "y_e89_rbs": 5805707.256,
+    "planungsra": "601",
+    "sozialraum": "VI",
+    "schulform": "F",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0630799989,
+      "lat": 52.3981959969
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.063079998920601,
+          52.39819599686525
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Akademie f\u00fcr Sozial- und Gesundheitsberufe GmbH",
+    "schulnumme": "F24",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Am Kanal 12",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 368218.822,
+    "y_e89_rbs": 5807093.264,
+    "planungsra": "302",
+    "sozialraum": "III",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0633633123,
+      "lat": 52.4156150833
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.06336331230254,
+          52.41561508330014
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Evangelische Grundschule Potsdam",
+    "schulnumme": "F3",
+    "schulnum_1": "106045",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Gro\u00dfe Weinmeisterstra\u00dfe 49",
+    "plz": 14469,
+    "ort": "Potsdam",
+    "x_e89_rbs": 368289.9999,
+    "y_e89_rbs": 5809030.0001,
+    "planungsra": "301",
+    "sozialraum": "III",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0904058268,
+      "lat": 52.3921373759
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.09040582679613,
+          52.39213737590855
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Evangelische Grundschule Potsdam-Babelsberg",
+    "schulnumme": "F4",
+    "schulnum_1": "106471",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Rudolf-Breitscheid-Stra\u00dfe 21",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370059.9999,
+    "y_e89_rbs": 5806370.0001,
+    "planungsra": "402",
+    "sozialraum": "IV",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0793442016,
+      "lat": 52.3727159663
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.0793442016208,
+          52.372715966277035
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Internationale Grundschule Potsdam Primary School genehmigte Ersatzschule",
+    "schulnumme": "F6",
+    "schulnum_1": "106446",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Ravensbergweg 30",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 369249.9999,
+    "y_e89_rbs": 5804230.0001,
+    "planungsra": "601",
+    "sozialraum": "VI",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1177800014,
+      "lat": 52.382933998
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.117780001378401,
+          52.38293399795271
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Berufliche Schule Potsdam der ASG - Anerkannte Schulgesellschaft mbH, anerkannte Ersatzschule",
+    "schulnumme": "F31",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Wetzlarer Str. 22",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 371895.882,
+    "y_e89_rbs": 5805297.605,
+    "planungsra": "403",
+    "sozialraum": "IV",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0996410046,
+      "lat": 52.3720430026
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.099641004623727,
+          52.372043002646016
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Wohnheim der Schule mit den sonderp\u00e4dagogischen F\u00f6rderschwerpunkten H\u00f6ren und Sprache",
+    "schulnumme": "WH2",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Bisamkiez 107-111",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370629.623,
+    "y_e89_rbs": 5804118.657,
+    "planungsra": "601",
+    "sozialraum": "VI",
+    "schulform": "WH",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.09393821,
+      "lat": 52.3954313879
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.093938209974121,
+          52.39543138788535
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule Bruno H. B\u00fcrgel",
+    "schulnumme": "16",
+    "schulnum_1": "105491",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Karl-Liebknecht-Stra\u00dfe 29",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370309.9999,
+    "y_e89_rbs": 5806730.0002,
+    "planungsra": "402",
+    "sozialraum": "IV",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0890369943,
+      "lat": 52.3941620035
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.089036994265754,
+          52.39416200353028
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Oberlinschule - Schule mit dem sonderp\u00e4dagogischen F\u00f6rderschwerpunkt \"k\u00f6rperliche und motorische Entwicklung\"",
+    "schulnumme": "F19",
+    "schulnum_1": "401092",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Rudolf-Breitscheid-Stra\u00dfe 24",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 369972.817,
+    "y_e89_rbs": 5806597.629,
+    "planungsra": "402",
+    "sozialraum": "IV",
+    "schulform": "F",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1379580059,
+      "lat": 52.387464005
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.137958005925801,
+          52.387464004981766
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Oberlin Berufliche Schulen der Berufsbildungswerk im Oberlinhaus gGmbH - anerkannte Ersatzschule",
+    "schulnumme": "F20",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Steinstra\u00dfe 80-82-84",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 373282.05,
+    "y_e89_rbs": 5805765.857,
+    "planungsra": "501",
+    "sozialraum": "V",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0382599998,
+      "lat": 52.3939420018
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.038259999817296,
+          52.3939420018269
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Fachschule Sozialwesen in der Fachrichtung Sozialp\u00e4dagogik des AWO-Bezirksverb. Potsdam e.V. anerkannte Ersatzschule",
+    "schulnumme": "F22",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Zeppelinstra\u00dfe 152",
+    "plz": 14471,
+    "ort": "Potsdam",
+    "x_e89_rbs": 366517.486,
+    "y_e89_rbs": 5806665.692,
+    "planungsra": "303",
+    "sozialraum": "III",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0893050035,
+      "lat": 52.3649500023
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.089305003533456,
+          52.36495000234365
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Oberstufenzentrum 2 Wirtschaft und Verwaltung St\u00e4dtische Schule Potsdam - Europaschule",
+    "schulnumme": "II",
+    "schulnum_1": "200384",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Zum Jagenstein 26",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 369905.206,
+    "y_e89_rbs": 5803348.354,
+    "planungsra": "604",
+    "sozialraum": "VI",
+    "schulform": "OSZ",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0779807253,
+      "lat": 52.3822095952
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.077980725288027,
+          52.38220959524453
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Humboldt-Gymnasium",
+    "schulnumme": "1",
+    "schulnum_1": "120790",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Heinrich-Mann-Allee 103",
+    "plz": 14473,
+    "ort": "Potsdam",
+    "x_e89_rbs": 369185.2527,
+    "y_e89_rbs": 5805288.2914,
+    "planungsra": "601",
+    "sozialraum": "VI",
+    "schulform": "OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0935418792,
+      "lat": 52.3739349881
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.093541879195206,
+          52.37393498808151
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Schule am Nuthetal",
+    "schulnumme": "10/30",
+    "schulnum_1": "401262",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "An der Alten Zauche 2 c",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370220.0,
+    "y_e89_rbs": 5804340.0002,
+    "planungsra": "602",
+    "sozialraum": "VI",
+    "schulform": "F",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0336565124,
+      "lat": 52.4156641144
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.033656512362708,
+          52.41566411438648
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Karl-Foerster-Schule",
+    "schulnumme": "25/26",
+    "schulnum_1": "112938",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Kirschallee 172",
+    "plz": 14469,
+    "ort": "Potsdam",
+    "x_e89_rbs": 366270.0,
+    "y_e89_rbs": 5809090.0,
+    "planungsra": "201",
+    "sozialraum": "II",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0970344419,
+      "lat": 52.3781274451
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.097034441932141,
+          52.37812744507619
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Weidenhof-Grundschule",
+    "schulnumme": "40",
+    "schulnum_1": "105351",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Schilfhof 29",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370470.0,
+    "y_e89_rbs": 5804800.0002,
+    "planungsra": "602",
+    "sozialraum": "VI",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0478144533,
+      "lat": 52.4014222197
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.047814453294249,
+          52.401422219707946
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Einstein-Gymnasium Potsdam",
+    "schulnumme": "54",
+    "schulnum_1": "120868",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Hegelallee 30",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367189.9999,
+    "y_e89_rbs": 5807480.0001,
+    "planungsra": "302",
+    "sozialraum": "III",
+    "schulform": "OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0992090931,
+      "lat": 52.3651245619
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.099209093120136,
+          52.36512456192665
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Waldorfschule Potsdam",
+    "schulnumme": "F11",
+    "schulnum_1": "700046",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Erich-Weinert-Stra\u00dfe 5",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370579.9998,
+    "y_e89_rbs": 5803350.0001,
+    "planungsra": "603",
+    "sozialraum": "VI",
+    "schulform": "G/O/OG",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.2326810021,
+      "lat": 52.3949270013
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.232681002084007,
+          52.39492700128556
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Altenpflegeschule der Hoffbauer gGmbH",
+    "schulnumme": "F30",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Schwarzer Weg 5",
+    "plz": 14532,
+    "ort": "Kleinmachnow",
+    "x_e89_rbs": 379748.009,
+    "y_e89_rbs": 5806434.096,
+    "planungsra": null,
+    "sozialraum": null,
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1366734564,
+      "lat": 52.3823558118
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.1366734563526,
+          52.382355811845294
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Neue Grundschule Potsdam anerkannte Ersatzschule",
+    "schulnumme": "F8",
+    "schulnum_1": "106124",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Flotowstra\u00dfe 10",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 373179.9999,
+    "y_e89_rbs": 5805200.0002,
+    "planungsra": "501",
+    "sozialraum": "V",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 12.9636335783,
+      "lat": 52.4608758358
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          12.963633578316989,
+          52.46087583581832
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Neue Grundschule Marquardt anerkannte Ersatzschule",
+    "schulnumme": "F9",
+    "schulnum_1": "106460",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Hauptstra\u00dfe 22",
+    "plz": 14476,
+    "ort": "Potsdam",
+    "x_e89_rbs": 361650.0,
+    "y_e89_rbs": 5814249.9999,
+    "planungsra": "102",
+    "sozialraum": "I",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0579623199,
+      "lat": 52.4013196598
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.05796231985081,
+          52.40131965979257
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Schule des Zweiten Bildungsweges \"Heinrich von Kleist\"",
+    "schulnumme": "15",
+    "schulnum_1": "600027",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Friedrich-Ebert-Stra\u00dfe 17",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367879.9999,
+    "y_e89_rbs": 5807450.0001,
+    "planungsra": "302",
+    "sozialraum": "III",
+    "schulform": "ZBW",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 12.9932392693,
+      "lat": 52.4054535744
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          12.993239269346182,
+          52.405453574410515
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule Ludwig Renn",
+    "schulnumme": "2",
+    "schulnum_1": "103421",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Kaiser-Friedrich-Str.15 a",
+    "plz": 14469,
+    "ort": "Potsdam",
+    "x_e89_rbs": 363490.0001,
+    "y_e89_rbs": 5808030.0002,
+    "planungsra": "202",
+    "sozialraum": "II",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0529553979,
+      "lat": 52.3981801094
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.052955397856236,
+          52.398180109393735
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule Max Dortu",
+    "schulnumme": "8",
+    "schulnum_1": "105326",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Dortustra\u00dfe 28/29",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367529.9998,
+    "y_e89_rbs": 5807110.0,
+    "planungsra": "302",
+    "sozialraum": "III",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1207687844,
+      "lat": 52.3831829352
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.120768784381909,
+          52.38318293519882
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Neues Gymnasium Potsdam (Babelsberger Filmgymnasium) anerkannte Ersatzschule",
+    "schulnumme": "F17",
+    "schulnum_1": "121095",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Gro\u00dfbeerenstra\u00dfe 189",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372099.9999,
+    "y_e89_rbs": 5805320.0001,
+    "planungsra": "403",
+    "sozialraum": "IV",
+    "schulform": "OG",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1339667535,
+      "lat": 52.3663979753
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.133966753472745,
+          52.366397975289665
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule Am Priesterweg",
+    "schulnumme": "20",
+    "schulnum_1": "105466",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Oskar-Me\u00dfter-Stra\u00dfe 4-6",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372949.9999,
+    "y_e89_rbs": 5803430.0002,
+    "planungsra": "502",
+    "sozialraum": "V",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0993339634,
+      "lat": 52.3895838243
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.099333963440198,
+          52.38958382426883
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Bertha-von-Suttner-Gymnasium Babelsberg",
+    "schulnumme": "21",
+    "schulnum_1": "121307",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Kopernikusstra\u00dfe 30",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370660.0,
+    "y_e89_rbs": 5806070.0002,
+    "planungsra": "403",
+    "sozialraum": "IV",
+    "schulform": "OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0767453057,
+      "lat": 52.3953326699
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.076745305693443,
+          52.39533266986012
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Gesamtschule \"Peter Joseph Lenn\u00e9\"",
+    "schulnumme": "38",
+    "schulnum_1": "112975",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Humboldtring 15-17",
+    "plz": 14473,
+    "ort": "Potsdam",
+    "x_e89_rbs": 369140.0,
+    "y_e89_rbs": 5806750.0002,
+    "planungsra": "401",
+    "sozialraum": "IV",
+    "schulform": "O/OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1319620597,
+      "lat": 52.3616906568
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.131962059698113,
+          52.36169065680576
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule Im Kirchsteigfeld",
+    "schulnumme": "56",
+    "schulnum_1": "106008",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Lise-Meitner-Stra\u00dfe 4-6",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372799.9998,
+    "y_e89_rbs": 5802910.0001,
+    "planungsra": "503",
+    "sozialraum": "V",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0669569789,
+      "lat": 52.3973309631
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.066956978895382,
+          52.397330963062714
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Rosa-Luxemburg-Schule",
+    "schulnumme": "19",
+    "schulnum_1": "105454",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Burgstra\u00dfe 23 a",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 368480.0,
+    "y_e89_rbs": 5806990.0002,
+    "planungsra": "302",
+    "sozialraum": "III",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0615087355,
+      "lat": 52.4042552108
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.061508735489523,
+          52.404255210835466
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Eisenhart-Schule",
+    "schulnumme": "24",
+    "schulnum_1": "105533",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Kurf\u00fcrstenstra\u00dfe 51",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 368129.9999,
+    "y_e89_rbs": 5807770.0,
+    "planungsra": "302",
+    "sozialraum": "III",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0992992153,
+      "lat": 52.3903925103
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.099299215270023,
+          52.390392510260206
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Goethe-Grundschule",
+    "schulnumme": "31",
+    "schulnum_1": "106653",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Stephensonstra\u00dfe 1",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370660.0,
+    "y_e89_rbs": 5806160.0001,
+    "planungsra": "403",
+    "sozialraum": "IV",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0593208805,
+      "lat": 52.4038596402
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.059320880503682,
+          52.403859640192415
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Hermann-von-Helmholtz-Gymnasium Europaschule",
+    "schulnumme": "4",
+    "schulnum_1": "120819",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Kurf\u00fcrstenstra\u00dfe 53",
+    "plz": 14467,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367979.9998,
+    "y_e89_rbs": 5807730.0001,
+    "planungsra": "302",
+    "sozialraum": "III",
+    "schulform": "OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1325374399,
+      "lat": 52.3759064883
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.13253743992281,
+          52.37590648825367
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Leibniz-Gymnasium",
+    "schulnumme": "41",
+    "schulnum_1": "120820",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Galileistra\u00dfe 2-4",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372880.0,
+    "y_e89_rbs": 5804490.0,
+    "planungsra": "501",
+    "sozialraum": "V",
+    "schulform": "OG",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.103261392,
+      "lat": 52.4658953781
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.103261391962771,
+          52.46589537812073
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Grundschule Hanna von Pestalozza",
+    "schulnumme": "6",
+    "schulnum_1": "103512",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Hechtsprung 14-16",
+    "plz": 14476,
+    "ort": "Gro\u00df Glienicke",
+    "x_e89_rbs": 371149.9999,
+    "y_e89_rbs": 5814549.9998,
+    "planungsra": "101",
+    "sozialraum": "I",
+    "schulform": "G",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0313430054,
+      "lat": 52.3824509993
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.031343005400435,
+          52.382450999255624
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Berufliche Schule Potsdam der Hoffbauer gGmbH",
+    "schulnumme": "F21",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Hermannswerder 10",
+    "plz": 14473,
+    "ort": "Potsdam",
+    "x_e89_rbs": 366012.083,
+    "y_e89_rbs": 5805400.53,
+    "planungsra": "601",
+    "sozialraum": "VI",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1317960001,
+      "lat": 52.3803690025
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.131796000146402,
+          52.38036900248376
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "AWO Akademie Potsdam - Altenpflegeschule Potsdam des AWO Bezirksverb. Potsdam e.V.",
+    "schulnumme": "F28",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "R\u00f6hrenstr. 6",
+    "plz": 14480,
+    "ort": "Potsdam",
+    "x_e89_rbs": 372842.356,
+    "y_e89_rbs": 5804987.602,
+    "planungsra": "501",
+    "sozialraum": "V",
+    "schulform": "B",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.1153794171,
+      "lat": 52.3958651753
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.115379417084721,
+          52.39586517525741
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Katholische Marienschule Potsdam Grundschule - anerkannte Ersatzschule -",
+    "schulnumme": "F7",
+    "schulnum_1": "106586",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Espengrund 10",
+    "plz": 14482,
+    "ort": "Potsdam",
+    "x_e89_rbs": 371770.0,
+    "y_e89_rbs": 5806740.0002,
+    "planungsra": "402",
+    "sozialraum": "IV",
+    "schulform": "G",
+    "trager": "Privat"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0509080001,
+      "lat": 52.407209997
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.050908000120232,
+          52.4072099970347
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Oberstufenzentrum I - Technik",
+    "schulnumme": "I",
+    "schulnum_1": "200372",
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "J\u00e4gerallee 23a",
+    "plz": 14469,
+    "ort": "Potsdam",
+    "x_e89_rbs": 367417.794,
+    "y_e89_rbs": 5808118.004,
+    "planungsra": "201",
+    "sozialraum": "II",
+    "schulform": "OSZ",
+    "trager": "\u00f6ffentlich"
+  },
+  {
+    "geo_point_2d": {
+      "lon": 13.0996189949,
+      "lat": 52.372350001
+    },
+    "geo_shape": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          13.099618994864546,
+          52.372350001003134
+        ],
+        "type": "Point"
+      },
+      "properties": {}
+    },
+    "schulname": "Wohnheim der Oberstufenzentren",
+    "schulnumme": "WH1",
+    "schulnum_1": null,
+    "status": "Aktiv",
+    "standort": "Hauptstandort",
+    "strasse": "Bisamkiez 107-111",
+    "plz": 14478,
+    "ort": "Potsdam",
+    "x_e89_rbs": 370629.022,
+    "y_e89_rbs": 5804152.839,
+    "planungsra": "601",
+    "sozialraum": "VI",
+    "schulform": "WH",
+    "trager": "\u00f6ffentlich"
+  }
+]

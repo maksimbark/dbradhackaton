@@ -34,6 +34,9 @@ function App() {
             <div>
                 <a href="map">Map is here</a>
             </div>
+            <div>
+                <a href="rad">DB Rad+ mode</a>
+            </div>
         </>
     )
 }

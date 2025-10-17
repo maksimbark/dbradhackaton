@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: "DB Head";
+
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.db-page {
+    font-family: "DB Sans";
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.db-page-top {
+    background-color: #ec0016;
+    width: 100%;
+    height: 65vh;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+
+.db-page-bottom {
+    background-color: white;
+    width: 100%;
+    height: 24vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-round {
+    background-color: #ec0016;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-text {
+    color: white;
+}
+
+.db-footer {
+    width: 100%;
+    background-color: white;
+}
+
+.db-page-top img {
+    height: auto;
+    width: 95vw;
+}
+
+.db-footer img {
+    height: 52px;
+    width: auto;
+}
+
+.school-icon {
+    margin: 0 5px 4px 5px;
+    fill: #7b827a;
+}
+
+.red {
+   fill: #ec0016;
+}
+
+.db-body {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    overflow: scroll;
+}
+
+.school-name {
+    font-family: "DB Head";
+    font-size: 37px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+
+.ranking {
+    background-color: #ec0016;
+    color: white;
+    font-size: 32px;
+    padding: 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rank-table {
+    display: table;
+    margin-top: 20px;
+    width: 93%;
+    font-size: 24px;
+    border-collapse: collapse;
+}
+
+.rank-table-row {
+    display: table-row;
+    padding-bottom: 10px;
+    height: 3rem;
+}
+
+.rank-table-row_me {
+    color: #ec0016;
+    .rank-table-platz {
+        background: white;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .rank-table-name {
+        background: white;
+    }
+    .rank-table-km {
+        background: white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+.rank-table-platz {
+    display: table-cell;
+    padding-right: 12px;
+    vertical-align: middle;
+    text-align: right;
+}
+.rank-table-name {
+    display: table-cell;
+    vertical-align: middle;
+}
+.rank-table-km {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.line  {
+    border-top: 1px dashed #ec0016;
+    width: 100%;
+    display: table-row;
+}
+
+@font-face {
+    font-family: "DB Head";
+    src: url(/dbhead-black.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "DB Sans";
+    src: url(/dbsans-bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "DB Sans";
+    src: url(/dbsans-regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
