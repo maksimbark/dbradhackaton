@@ -87,7 +87,7 @@ body {
 
 .school-name {
     font-family: "DB Head";
-    font-size: 37px;
+    font-size: 34px;
     margin-top: 17px;
     margin-bottom: 10px;
 }
@@ -115,6 +115,20 @@ body {
     display: table-row;
     padding-bottom: 10px;
     height: 3rem;
+}
+
+.rank-table-row_schools {
+    height: 8rem;
+}
+.rank-table-row_kleintmp {
+    height: 5rem;
+}
+
+.rank-table-name_schools {
+    padding-right: 18px;
+}
+.rank-table-km_schools {
+    padding-right: 10px;
 }
 
 .rank-table-row_me {
@@ -177,4 +191,8 @@ body {
     font-weight: 400;
     font-style: normal;
     font-display: swap
+}
+
+.school-name_school {
+    text-align: center;
 }

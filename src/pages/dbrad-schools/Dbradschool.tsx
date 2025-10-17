@@ -1,6 +1,30 @@
 import {useState} from 'react'
 import './dbradschool.css'
 import '../../../node_modules/leaflet/dist/leaflet.css'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import schulenRanked from '../dbrad-map/schulenRanked.json'
+import { useSearchParams } from "react-router";
+
+schulenRanked.sort((a,b) => a.ranking - b.ranking)
+
+const responsive = {
+    desktop: {
+        breakpoint: {max: 3000, min: 1024},
+        items: 1,
+        slidesToSlide: 1 // optional, default to 1.
+    },
+    tablet: {
+        breakpoint: {max: 1024, min: 464},
+        items: 1,
+        slidesToSlide: 1 // optional, default to 1.
+    },
+    mobile: {
+        breakpoint: {max: 464, min: 0},
+        items: 1,
+        slidesToSlide: 1 // optional, default to 1.
+    }
+};
 
 const rankData = [
     {
@@ -85,24 +109,55 @@ const rankData = [
 ]
 
 function App() {
+    const [searchParams] = useSearchParams();
+
+    const school = decodeURIComponent(searchParams.get("school") || '')
+    console.log('school', school)
+    const mySchoolName = school || "Leonardo-da-Vinci-Gesamtschule"
+    let mySchoolPlatz = 0;
+    schulenRanked.forEach((element) => {
+        if (element.name === mySchoolName) mySchoolPlatz = element.ranking;
+    })
+    let nextRowKlein = false
     return (
         <div className="db-page">
-            <div className="db-swipe-pages">
+            <Carousel
+                swipeable={true}
+                draggable={false}
+                showDots={true}
+                responsive={responsive}
+                ssr={true} // means to render carousel on server-side.
+                infinite={true}
+                autoPlay={false}
+                autoPlaySpeed={1000}
+                keyBoardControl={true}
+                customTransition="all .5"
+                transitionDuration={500}
+                containerClass="carousel-container"
+                removeArrowOnDeviceType={["tablet", "mobile"]}
+                deviceType="mobile"
+                dotListClass="custom-dot-list-style"
+                itemClass="carousel-item-padding-40-px"
+            >
                 <div className="db-body">
-                    <div className="school-name">VeloFreund</div>
-                    <div className="ranking">Platz 28</div>
+                    <div className="school-name school-name_school">{mySchoolName}</div>
+                    <div className="ranking">Platz {mySchoolPlatz}</div>
                     <div className="rank-table">
-                        {rankData.map(rank => {
-                            if (rank.linie) return (
-                                <div className="line"></div>
-                            )
-                            const rowClassName = rank.isMe ? "rank-table-row rank-table-row_me" : "rank-table-row"
-                            return (
-                                <div className={rowClassName}>
-                                    <div className="rank-table-platz">{rank.platz}.</div>
-                                    <div className="rank-table-name">{rank.name}</div>
-                                    <div className="rank-table-km">{rank.weg} km</div>
-                                </div>)
+                        {schulenRanked.map(rank => {
+                            let rowClassName = rank.name === mySchoolName ? "rank-table-row rank-table-row_schools rank-table-row_me" : "rank-table-row rank-table-row_schools"
+                            rowClassName = nextRowKlein ? rowClassName + " rank-table-row_kleintmp" : rowClassName
+                            if (rank.ranking === 4 && mySchoolPlatz > 8) { nextRowKlein = true; return (<div className="line"></div>)}
+                            if (rank.ranking < 4 || Math.abs(rank.ranking-mySchoolPlatz) < 5) {
+                                nextRowKlein = false
+                                return (
+                                    <div className={rowClassName}>
+                                        <div className="rank-table-platz">{rank.ranking}.</div>
+                                        <div className="rank-table-name rank-table-name_schools">{rank.name}</div>
+                                        <div
+                                            className="rank-table-km rank-table-km_schools">{(81 - rank.ranking) * 17 + Math.round(Math.random() * 10)} km
+                                        </div>
+                                    </div>)
+                            }
                         })}
                     </div>
                 </div>
@@ -124,7 +179,7 @@ function App() {
                         })}
                     </div>
                 </div>
-            </div>
+            </Carousel>
             <div className="db-footer">
                 <a href="/rad"><img src="/icons/rad.png"></img></a>
                 <a href="/rad-map"><img src="/icons/map.png"></img></a>

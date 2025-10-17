@@ -1,0 +1,488 @@
+[
+  {
+    "lat": 52.3756799991,
+    "lon": 13.0144209944,
+    "name": "Berufliche Schule für Sport und Gesundheit der Europäischen Sportakademie des Landes Brandenburg",
+    "ranking": 68
+  },
+  {
+    "lat": 52.3818080037,
+    "lon": 13.0217599931,
+    "name": "Haus der Athleten Potsdam - Wohnheim der Sportschule Potsdam Friedrich-Ludwig-Jahn in Trägerschaft der Luftschiffhafen GmbH",
+    "ranking": 60
+  },
+  {
+    "lat": 52.3893192093,
+    "lon": 13.0229236255,
+    "name": "Zeppelin-Grundschule",
+    "ranking": 6
+  },
+  {
+    "lat": 52.3675033603,
+    "lon": 13.0961691273,
+    "name": "Waldstadt-Grundschule",
+    "ranking": 42
+  },
+  {
+    "lat": 52.4114734055,
+    "lon": 13.0466353478,
+    "name": "Grundschule im Bornstedter Feld",
+    "ranking": 53
+  },
+  {
+    "lat": 52.3958517919,
+    "lon": 13.1162432309,
+    "name": "Schule am Griebnitzsee",
+    "ranking": 40
+  },
+  {
+    "lat": 52.3759366388,
+    "lon": 13.134446109,
+    "name": "Grundschule Am Pappelhain",
+    "ranking": 43
+  },
+  {
+    "lat": 52.3785601578,
+    "lon": 13.0959873333,
+    "name": "Gesamtschule Am Schilfhof",
+    "ranking": 15
+  },
+  {
+    "lat": 52.4719203733,
+    "lon": 13.0049403048,
+    "name": "Regenbogenschule Fahrland",
+    "ranking": 5
+  },
+  {
+    "lat": 52.3831829352,
+    "lon": 13.1207687844,
+    "name": "Neue Gesamtschule Babelsberg der ASG - anerkannte Ersatzschule -",
+    "ranking": 77
+  },
+  {
+    "lat": 52.4122894202,
+    "lon": 12.9819113791,
+    "name": "AWO Grundschule Marie Juchacz Potsdam - genehmigte Ersatzschule -",
+    "ranking": 9
+  },
+  {
+    "lat": 52.3827510023,
+    "lon": 13.1204559979,
+    "name": "Medienschule Babelsberg, BFS für Medien und Kommunikation mit anerkannten Bildungsgängen, FOS - einjährig, anerkannte Ersatzschule in der FR Gestaltung",
+    "ranking": 69
+  },
+  {
+    "lat": 52.3803690025,
+    "lon": 13.1317960001,
+    "name": "Fachschule Sozialwesen in der Fachrichtung Sozialpädagogik des AWO Bezirksverb. Potsdam e.V.",
+    "ranking": 58
+  },
+  {
+    "lat": 52.4093369987,
+    "lon": 13.0770170039,
+    "name": "Oberstufenzentrum \"Johanna Just\"",
+    "ranking": 74
+  },
+  {
+    "lat": 52.3799339962,
+    "lon": 13.1242409962,
+    "name": "Schulzentrum am Stern",
+    "ranking": 25
+  },
+  {
+    "lat": 52.4198786004,
+    "lon": 13.0528447919,
+    "name": "Leonardo-da-Vinci-Gesamtschule",
+    "ranking": 2
+  },
+  {
+    "lat": 52.3819047945,
+    "lon": 13.0204630705,
+    "name": "Sportschule Potsdam \"Friedrich Ludwig Jahn\"",
+    "ranking": 19
+  },
+  {
+    "lat": 52.3820087041,
+    "lon": 13.0320667828,
+    "name": "Evangelisches Gymnasium Hermannswerder",
+    "ranking": 54
+  },
+  {
+    "lat": 52.3677187288,
+    "lon": 13.1436059147,
+    "name": "Schiller-Gymnasium",
+    "ranking": 65
+  },
+  {
+    "lat": 52.382933998,
+    "lon": 13.1177800014,
+    "name": "AGUS / GADAT Berufliche Schule Potsdam FS für Sozialwesen / FR Sozialpäd.",
+    "ranking": 41
+  },
+  {
+    "lat": 52.4223395774,
+    "lon": 13.0027676916,
+    "name": "Grundschule Bornim",
+    "ranking": 63
+  },
+  {
+    "lat": 52.3967618215,
+    "lon": 13.0378778855,
+    "name": "Käthe-Kollwitz-Oberschule",
+    "ranking": 61
+  },
+  {
+    "lat": 52.4195549988,
+    "lon": 13.0509070046,
+    "name": "Schule am Schloss",
+    "ranking": 45
+  },
+  {
+    "lat": 52.3892219873,
+    "lon": 13.0224870763,
+    "name": "Hannah-Arendt-Gymnasium",
+    "ranking": 47
+  },
+  {
+    "lat": 52.3967611985,
+    "lon": 13.0503214963,
+    "name": "Voltaireschule Gesamtschulcampus mit gymnasialem Bildungsgang",
+    "ranking": 79
+  },
+  {
+    "lat": 52.3640540415,
+    "lon": 13.1278966063,
+    "name": "Schiller Grundschule im Sternfeld anerkannte Ersatzschule",
+    "ranking": 30
+  },
+  {
+    "lat": 52.3594637293,
+    "lon": 13.0938712202,
+    "name": "Aktive Schule Potsdam Grundschule",
+    "ranking": 51
+  },
+  {
+    "lat": 52.3958651753,
+    "lon": 13.1153794171,
+    "name": "Katholische Marienschule Potsdam, Gymnasium anerkannte Ersatzschule",
+    "ranking": 28
+  },
+  {
+    "lat": 52.3942723882,
+    "lon": 13.0341668017,
+    "name": "Gerhart-Hauptmann-Grundschule Potsdam",
+    "ranking": 24
+  },
+  {
+    "lat": 52.4267100015,
+    "lon": 13.0565749936,
+    "name": "Grundschule Am Jungfernsee",
+    "ranking": 33
+  },
+  {
+    "lat": 52.3609550029,
+    "lon": 13.0904200032,
+    "name": "Fröbelschule Schule mit dem sonderpädagogischen Förderschwerpunkt emotionale und soziale Entwicklung",
+    "ranking": 67
+  },
+  {
+    "lat": 52.3953326699,
+    "lon": 13.0767453057,
+    "name": "Grundschule am Humboldtring",
+    "ranking": 27
+  },
+  {
+    "lat": 52.3611401604,
+    "lon": 13.0918897404,
+    "name": "Oberschule Theodor Fontane mit Primarstufe",
+    "ranking": 29
+  },
+  {
+    "lat": 52.3727159663,
+    "lon": 13.0793442016,
+    "name": "Alfred-Nobel-Gesamtschule Potsdam - anerkannte Ersatzschule -",
+    "ranking": 1
+  },
+  {
+    "lat": 52.3677850022,
+    "lon": 13.1438650006,
+    "name": "Gesamtschule Potsdam - Drewitzer Modellschule - , genehmigte Ersatzschule, anerkannt in der Sekundarstufe I",
+    "ranking": 71
+  },
+  {
+    "lat": 52.4017709965,
+    "lon": 13.0649719964,
+    "name": "Klinikum Ernst von Bergmann gGmbH Gesundheitsakademie",
+    "ranking": 20
+  },
+  {
+    "lat": 52.3761198533,
+    "lon": 13.1007937688,
+    "name": "Freie Schule Potsdam des Vereins Freie Schule Potsdam e.V.",
+    "ranking": 3
+  },
+  {
+    "lat": 52.3818730006,
+    "lon": 13.0320699973,
+    "name": "Evangelisches Internat der Hoffbauer gGmbH",
+    "ranking": 52
+  },
+  {
+    "lat": 52.3888895673,
+    "lon": 13.0133901487,
+    "name": "Montessori-Oberschule mit Primarstufe",
+    "ranking": 34
+  },
+  {
+    "lat": 52.3724579966,
+    "lon": 13.0990659948,
+    "name": "Wilhelm-von-Türk-Schule",
+    "ranking": 35
+  },
+  {
+    "lat": 52.3640181816,
+    "lon": 13.1370046353,
+    "name": "Friedrich-Wilhelm-von-Steuben-Gesamtschule",
+    "ranking": 59
+  },
+  {
+    "lat": 52.3856860041,
+    "lon": 13.0601860036,
+    "name": "Comenius-Schule Schule mit dem sonderpädagogischen Förderschwerpunkt \"geistige Entwicklung\"",
+    "ranking": 57
+  },
+  {
+    "lat": 52.3981959969,
+    "lon": 13.0630799989,
+    "name": "Akademie für Sozial- und Gesundheitsberufe GmbH",
+    "ranking": 37
+  },
+  {
+    "lat": 52.4156150833,
+    "lon": 13.0633633123,
+    "name": "Evangelische Grundschule Potsdam",
+    "ranking": 26
+  },
+  {
+    "lat": 52.3921373759,
+    "lon": 13.0904058268,
+    "name": "Evangelische Grundschule Potsdam-Babelsberg",
+    "ranking": 66
+  },
+  {
+    "lat": 52.3727159663,
+    "lon": 13.0793442016,
+    "name": "Internationale Grundschule Potsdam Primary School genehmigte Ersatzschule",
+    "ranking": 32
+  },
+  {
+    "lat": 52.382933998,
+    "lon": 13.1177800014,
+    "name": "Berufliche Schule Potsdam der ASG - Anerkannte Schulgesellschaft mbH, anerkannte Ersatzschule",
+    "ranking": 55
+  },
+  {
+    "lat": 52.3720430026,
+    "lon": 13.0996410046,
+    "name": "Wohnheim der Schule mit den sonderpädagogischen Förderschwerpunkten Hören und Sprache",
+    "ranking": 11
+  },
+  {
+    "lat": 52.3954313879,
+    "lon": 13.09393821,
+    "name": "Grundschule Bruno H. Bürgel",
+    "ranking": 81
+  },
+  {
+    "lat": 52.3941620035,
+    "lon": 13.0890369943,
+    "name": "Oberlinschule - Schule mit dem sonderpädagogischen Förderschwerpunkt \"körperliche und motorische Entwicklung\"",
+    "ranking": 75
+  },
+  {
+    "lat": 52.387464005,
+    "lon": 13.1379580059,
+    "name": "Oberlin Berufliche Schulen der Berufsbildungswerk im Oberlinhaus gGmbH - anerkannte Ersatzschule",
+    "ranking": 14
+  },
+  {
+    "lat": 52.3939420018,
+    "lon": 13.0382599998,
+    "name": "Fachschule Sozialwesen in der Fachrichtung Sozialpädagogik des AWO-Bezirksverb. Potsdam e.V. anerkannte Ersatzschule",
+    "ranking": 62
+  },
+  {
+    "lat": 52.3649500023,
+    "lon": 13.0893050035,
+    "name": "Oberstufenzentrum 2 Wirtschaft und Verwaltung Städtische Schule Potsdam - Europaschule",
+    "ranking": 48
+  },
+  {
+    "lat": 52.3822095952,
+    "lon": 13.0779807253,
+    "name": "Humboldt-Gymnasium",
+    "ranking": 64
+  },
+  {
+    "lat": 52.3739349881,
+    "lon": 13.0935418792,
+    "name": "Schule am Nuthetal",
+    "ranking": 8
+  },
+  {
+    "lat": 52.4156641144,
+    "lon": 13.0336565124,
+    "name": "Karl-Foerster-Schule",
+    "ranking": 4
+  },
+  {
+    "lat": 52.3781274451,
+    "lon": 13.0970344419,
+    "name": "Weidenhof-Grundschule",
+    "ranking": 76
+  },
+  {
+    "lat": 52.4014222197,
+    "lon": 13.0478144533,
+    "name": "Einstein-Gymnasium Potsdam",
+    "ranking": 10
+  },
+  {
+    "lat": 52.3651245619,
+    "lon": 13.0992090931,
+    "name": "Waldorfschule Potsdam",
+    "ranking": 16
+  },
+  {
+    "lat": 52.3949270013,
+    "lon": 13.2326810021,
+    "name": "Altenpflegeschule der Hoffbauer gGmbH",
+    "ranking": 49
+  },
+  {
+    "lat": 52.3823558118,
+    "lon": 13.1366734564,
+    "name": "Neue Grundschule Potsdam anerkannte Ersatzschule",
+    "ranking": 7
+  },
+  {
+    "lat": 52.4608758358,
+    "lon": 12.9636335783,
+    "name": "Neue Grundschule Marquardt anerkannte Ersatzschule",
+    "ranking": 44
+  },
+  {
+    "lat": 52.4013196598,
+    "lon": 13.0579623199,
+    "name": "Schule des Zweiten Bildungsweges \"Heinrich von Kleist\"",
+    "ranking": 22
+  },
+  {
+    "lat": 52.4054535744,
+    "lon": 12.9932392693,
+    "name": "Grundschule Ludwig Renn",
+    "ranking": 12
+  },
+  {
+    "lat": 52.3981801094,
+    "lon": 13.0529553979,
+    "name": "Grundschule Max Dortu",
+    "ranking": 23
+  },
+  {
+    "lat": 52.3831829352,
+    "lon": 13.1207687844,
+    "name": "Neues Gymnasium Potsdam (Babelsberger Filmgymnasium) anerkannte Ersatzschule",
+    "ranking": 70
+  },
+  {
+    "lat": 52.3663979753,
+    "lon": 13.1339667535,
+    "name": "Grundschule Am Priesterweg",
+    "ranking": 56
+  },
+  {
+    "lat": 52.3895838243,
+    "lon": 13.0993339634,
+    "name": "Bertha-von-Suttner-Gymnasium Babelsberg",
+    "ranking": 50
+  },
+  {
+    "lat": 52.3953326699,
+    "lon": 13.0767453057,
+    "name": "Gesamtschule \"Peter Joseph Lenné\"",
+    "ranking": 13
+  },
+  {
+    "lat": 52.3616906568,
+    "lon": 13.1319620597,
+    "name": "Grundschule Im Kirchsteigfeld",
+    "ranking": 21
+  },
+  {
+    "lat": 52.3973309631,
+    "lon": 13.0669569789,
+    "name": "Rosa-Luxemburg-Schule",
+    "ranking": 17
+  },
+  {
+    "lat": 52.4042552108,
+    "lon": 13.0615087355,
+    "name": "Eisenhart-Schule",
+    "ranking": 78
+  },
+  {
+    "lat": 52.3903925103,
+    "lon": 13.0992992153,
+    "name": "Goethe-Grundschule",
+    "ranking": 80
+  },
+  {
+    "lat": 52.4038596402,
+    "lon": 13.0593208805,
+    "name": "Hermann-von-Helmholtz-Gymnasium Europaschule",
+    "ranking": 46
+  },
+  {
+    "lat": 52.3759064883,
+    "lon": 13.1325374399,
+    "name": "Leibniz-Gymnasium",
+    "ranking": 31
+  },
+  {
+    "lat": 52.4658953781,
+    "lon": 13.103261392,
+    "name": "Grundschule Hanna von Pestalozza",
+    "ranking": 38
+  },
+  {
+    "lat": 52.3824509993,
+    "lon": 13.0313430054,
+    "name": "Berufliche Schule Potsdam der Hoffbauer gGmbH",
+    "ranking": 39
+  },
+  {
+    "lat": 52.3803690025,
+    "lon": 13.1317960001,
+    "name": "AWO Akademie Potsdam - Altenpflegeschule Potsdam des AWO Bezirksverb. Potsdam e.V.",
+    "ranking": 73
+  },
+  {
+    "lat": 52.3958651753,
+    "lon": 13.1153794171,
+    "name": "Katholische Marienschule Potsdam Grundschule - anerkannte Ersatzschule -",
+    "ranking": 72
+  },
+  {
+    "lat": 52.407209997,
+    "lon": 13.0509080001,
+    "name": "Oberstufenzentrum I - Technik",
+    "ranking": 18
+  },
+  {
+    "lat": 52.372350001,
+    "lon": 13.0996189949,
+    "name": "Wohnheim der Oberstufenzentren",
+    "ranking": 36
+  }
+]

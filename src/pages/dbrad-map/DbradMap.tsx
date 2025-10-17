@@ -6,6 +6,29 @@ import {icon} from 'leaflet'
 
 import allschools from './schulen.json'
 
+function shuffle(array) {
+    let currentIndex = array.length;
+
+    // While there remain elements to shuffle...
+    while (currentIndex != 0) {
+
+        // Pick a remaining element...
+        let randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+    }
+}
+
+const arr: number[] = []
+for (let i = 1; i < 82; i++) {
+    arr.push(i)
+}
+shuffle(arr)
+console.log('arr', arr)
+
 function App() {
     const myIcon = icon({
         iconUrl: "/icons/school.png",
@@ -21,15 +44,21 @@ function App() {
         lat: school.geo_point_2d.lat,
         lon: school.geo_point_2d.lon,
         name: school.schulname,
+        ranking: arr.pop()
     }))
 
-    const pins = schoolMarkers.map(marker => (
-        <Marker key={marker.name} position={[marker.lat, marker.lon]} icon={myIcon}>
-            <Popup>
-                {marker.name}
-            </Popup>
-        </Marker>
-    ))
+    console.log(schoolMarkers)
+
+    const pins = schoolMarkers.map(marker => {
+        const href = "/rad-school?school=" + encodeURIComponent(marker.name)
+        return (
+            <Marker key={marker.name} position={[marker.lat, marker.lon]} icon={myIcon}>
+                <Popup>
+                    <a href={href}>{marker.name}</a>
+                </Popup>
+            </Marker>
+        )
+    })
 
     return (
         <div className="db-page">
