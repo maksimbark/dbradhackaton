@@ -1,20 +1,19 @@
-import {useState} from 'react'
 import './dbradmap.css'
 import '../../../node_modules/leaflet/dist/leaflet.css'
 import {MapContainer, Marker, Popup, TileLayer} from "react-leaflet";
 import {icon} from 'leaflet'
 
-import allschools from './schulen.json'
+// import allschools from './schulen.json'
 import rankedSchools from './schulenRanked.json'
 
-function shuffle(array) {
+function shuffle(array: number[]) {
     let currentIndex = array.length;
 
     // While there remain elements to shuffle...
     while (currentIndex != 0) {
 
         // Pick a remaining element...
-        let randomIndex = Math.floor(Math.random() * currentIndex);
+        const randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex--;
 
         // And swap it with the current element.
@@ -47,15 +46,6 @@ function App() {
             shadowAnchor: [12, 41]
         });
     }
-    const myIcon = icon({
-        iconUrl: "/icons/school_red.svg",
-        iconSize: [32, 32],
-        iconAnchor: [12, 41], // the point of the icon which will correspond to marker's location (tip of pin)
-        popupAnchor: [1, -34], // point from which the popup should open relative to the iconAnchor
-        tooltipAnchor: [12, -41], // center the tooltip above the tip of the marker
-        shadowSize: [41, 41], // size of the shadow
-        shadowAnchor: [12, 41]
-    });
 
     // const schoolMarkers = allschools.map(school => ({
     //     lat: school.geo_point_2d.lat,
@@ -97,12 +87,8 @@ function App() {
                 <img src="/icons/kauf.png"></img>
                 <a href="/rad-school">
                     <svg className="school-icon" enable-background="new 0 0 800 800" height="52px" version="1.1"
-                         viewBox="0 0 800 800" width="52px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-                         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                         xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M295.397,498.747c0-11.046-8.954-20-20-20h-43.591c-11.045,0-20,8.954-20,20s8.955,20,20,20h23.591v23.59   c0,11.046,8.954,20,20,20s20-8.954,20-20V498.747z"/><path
+                         viewBox="0 0 800 800" width="52px" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg"
+                         ><g><path d="M295.397,498.747c0-11.046-8.954-20-20-20h-43.591c-11.045,0-20,8.954-20,20s8.955,20,20,20h23.591v23.59   c0,11.046,8.954,20,20,20s20-8.954,20-20V498.747z"/><path
                         d="M189.232,498.747c0-11.046-8.954-20-20-20h-43.592c-11.045,0-20,8.954-20,20s8.955,20,20,20h23.592v23.59   c0,11.046,8.954,20,20,20s20-8.954,20-20V498.747z"/><path
                         d="M275.397,672.842c11.046,0,20-8.954,20-20v-43.59c0-11.046-8.954-20-20-20h-43.591c-11.045,0-20,8.954-20,20   s8.955,20,20,20h23.591v23.59C255.397,663.888,264.352,672.842,275.397,672.842z"/><path
                         d="M169.232,672.842c11.046,0,20-8.954,20-20v-43.59c0-11.046-8.954-20-20-20h-43.592c-11.045,0-20,8.954-20,20   s8.955,20,20,20h23.592v23.59C149.232,663.888,158.187,672.842,169.232,672.842z"/><path

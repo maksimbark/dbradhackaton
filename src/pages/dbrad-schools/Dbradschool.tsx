@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import './dbradschool.css'
 import '../../../node_modules/leaflet/dist/leaflet.css'
 import Carousel from "react-multi-carousel";
@@ -186,12 +185,7 @@ function App() {
                 <img src="/icons/geld.png"></img>
                 <img src="/icons/kauf.png"></img>
                 <svg className="school-icon red" enable-background="new 0 0 800 800" height="52px" version="1.1"
-                     viewBox="0 0 800 800" width="52px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                     xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-                     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                     xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M295.397,498.747c0-11.046-8.954-20-20-20h-43.591c-11.045,0-20,8.954-20,20s8.955,20,20,20h23.591v23.59   c0,11.046,8.954,20,20,20s20-8.954,20-20V498.747z"/><path
+                     viewBox="0 0 800 800" width="52px"><g><path d="M295.397,498.747c0-11.046-8.954-20-20-20h-43.591c-11.045,0-20,8.954-20,20s8.955,20,20,20h23.591v23.59   c0,11.046,8.954,20,20,20s20-8.954,20-20V498.747z"/><path
                     d="M189.232,498.747c0-11.046-8.954-20-20-20h-43.592c-11.045,0-20,8.954-20,20s8.955,20,20,20h23.592v23.59   c0,11.046,8.954,20,20,20s20-8.954,20-20V498.747z"/><path
                     d="M275.397,672.842c11.046,0,20-8.954,20-20v-43.59c0-11.046-8.954-20-20-20h-43.591c-11.045,0-20,8.954-20,20   s8.955,20,20,20h23.591v23.59C255.397,663.888,264.352,672.842,275.397,672.842z"/><path
                     d="M169.232,672.842c11.046,0,20-8.954,20-20v-43.59c0-11.046-8.954-20-20-20h-43.592c-11.045,0-20,8.954-20,20   s8.955,20,20,20h23.592v23.59C149.232,663.888,158.187,672.842,169.232,672.842z"/><path
