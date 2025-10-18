@@ -7,6 +7,7 @@ import Map from './pages/map/Map.tsx'
 import Dbrad from './pages/dbrad/Dbrad.tsx'
 import DbradMap from './pages/dbrad-map/DbradMap.tsx'
 import DbradSchool from './pages/dbrad-schools/Dbradschool.tsx'
+import DbradSchoolCards from './pages/dbrad-school-cards/DbradSchoolCards.tsx'
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')!).render(
                 <Route path="rad" element={<Dbrad/>}/>
                 <Route path="rad-map" element={<DbradMap/>}/>
                 <Route path="rad-school" element={<DbradSchool/>}/>
+                <Route path="rad-school-cards" element={<DbradSchoolCards/>}/>
             </Routes>
         </BrowserRouter>
     </StrictMode>,
