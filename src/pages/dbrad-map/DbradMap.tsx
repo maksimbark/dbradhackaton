@@ -86,8 +86,8 @@ function App() {
                 <img src="/icons/geld.png"></img>
                 <img src="/icons/kauf.png"></img>
                 <a href="/rad-school-cards">
-                    <svg className="school-icon" enable-background="new 0 0 800 800" height="52px" version="1.1"
-                         viewBox="0 0 800 800" width="52px" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg"
+                    <svg className="school-icon" enable-background="new 0 0 800 800"  version="1.1"
+                         viewBox="0 0 800 800" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg"
                          ><g><path d="M295.397,498.747c0-11.046-8.954-20-20-20h-43.591c-11.045,0-20,8.954-20,20s8.955,20,20,20h23.591v23.59   c0,11.046,8.954,20,20,20s20-8.954,20-20V498.747z"/><path
                         d="M189.232,498.747c0-11.046-8.954-20-20-20h-43.592c-11.045,0-20,8.954-20,20s8.955,20,20,20h23.592v23.59   c0,11.046,8.954,20,20,20s20-8.954,20-20V498.747z"/><path
                         d="M275.397,672.842c11.046,0,20-8.954,20-20v-43.59c0-11.046-8.954-20-20-20h-43.591c-11.045,0-20,8.954-20,20   s8.955,20,20,20h23.591v23.59C255.397,663.888,264.352,672.842,275.397,672.842z"/><path

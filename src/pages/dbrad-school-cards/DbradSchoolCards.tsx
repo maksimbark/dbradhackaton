@@ -26,7 +26,7 @@ function App() {
         <div className="db-page">
             <div className="db-body db-body_cards">
                 <div className="school-cards-header">VeloFreund</div>
-                <div className="school-cards-subheader">Gebiete, für die du Statistiken und infos erhalten möchtest</div>
+                <div className="school-cards-subheader">Gebiete, für die du Statistiken und Infos erhalten möchtest</div>
                 <div className="db-carousel-container">
                     <Carousel
                         swipeable={true}
@@ -126,8 +126,8 @@ function App() {
                 <img src="/icons/geld.png"></img>
                 <img src="/icons/kauf.png"></img>
                 <a href="/rad-school-cards">
-                    <svg className="school-icon red" enable-background="new 0 0 800 800" height="52px" version="1.1"
-                         viewBox="0 0 800 800" width="52px">
+                    <svg className="school-icon red" enable-background="new 0 0 800 800" version="1.1"
+                         viewBox="0 0 800 800">
                         <g>
                             <path
                                 d="M295.397,498.747c0-11.046-8.954-20-20-20h-43.591c-11.045,0-20,8.954-20,20s8.955,20,20,20h23.591v23.59   c0,11.046,8.954,20,20,20s20-8.954,20-20V498.747z"/>
