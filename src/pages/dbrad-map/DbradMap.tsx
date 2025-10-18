@@ -5,6 +5,7 @@ import {MapContainer, Marker, Popup, TileLayer} from "react-leaflet";
 import {icon} from 'leaflet'
 
 import allschools from './schulen.json'
+import rankedSchools from './schulenRanked.json'
 
 function shuffle(array) {
     let currentIndex = array.length;
@@ -30,8 +31,24 @@ shuffle(arr)
 console.log('arr', arr)
 
 function App() {
+    const generateIcon = function(rank: number){
+        let color = 'red';
+        if (rank < 30) color = 'bronze';
+        if (rank < 20) color = 'silver';
+        if (rank < 10) color = 'gold';
+
+        return icon({
+            iconUrl: `/icons/school_${color}.svg`,
+            iconSize: [32, 32],
+            iconAnchor: [12, 41], // the point of the icon which will correspond to marker's location (tip of pin)
+            popupAnchor: [1, -34], // point from which the popup should open relative to the iconAnchor
+            tooltipAnchor: [12, -41], // center the tooltip above the tip of the marker
+            shadowSize: [41, 41], // size of the shadow
+            shadowAnchor: [12, 41]
+        });
+    }
     const myIcon = icon({
-        iconUrl: "/icons/school.png",
+        iconUrl: "/icons/school_red.svg",
         iconSize: [32, 32],
         iconAnchor: [12, 41], // the point of the icon which will correspond to marker's location (tip of pin)
         popupAnchor: [1, -34], // point from which the popup should open relative to the iconAnchor
@@ -40,21 +57,22 @@ function App() {
         shadowAnchor: [12, 41]
     });
 
-    const schoolMarkers = allschools.map(school => ({
-        lat: school.geo_point_2d.lat,
-        lon: school.geo_point_2d.lon,
-        name: school.schulname,
-        ranking: arr.pop()
-    }))
+    // const schoolMarkers = allschools.map(school => ({
+    //     lat: school.geo_point_2d.lat,
+    //     lon: school.geo_point_2d.lon,
+    //     name: school.schulname,
+    //     ranking: arr.pop()
+    // }))
 
-    console.log(schoolMarkers)
+    // console.log(schoolMarkers)
 
-    const pins = schoolMarkers.map(marker => {
+    const pins = rankedSchools.map(marker => {
         const href = "/rad-school?school=" + encodeURIComponent(marker.name)
         return (
-            <Marker key={marker.name} position={[marker.lat, marker.lon]} icon={myIcon}>
+            <Marker key={marker.name} position={[marker.lat, marker.lon]} icon={generateIcon(marker.ranking)}>
                 <Popup>
                     <a href={href}>{marker.name}</a>
+                    <p className="platz-popup-text">Platz {marker.ranking}</p>
                 </Popup>
             </Marker>
         )

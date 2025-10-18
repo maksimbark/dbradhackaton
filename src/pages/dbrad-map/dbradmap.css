@@ -16,6 +16,14 @@ body {
     height: 89%;
 }
 
+.platz-popup-text {
+    font-weight: bold;
+}
+
+.leaflet-marker-icon.leaflet-interactive {
+    border-radius: 50px;
+}
+
 .db-footer {
     width: 100%;
     background-color: white;
