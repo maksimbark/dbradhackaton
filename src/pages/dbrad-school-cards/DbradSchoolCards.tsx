@@ -15,7 +15,7 @@ const responsive = {
         slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
-        breakpoint: {max: 350, min: 200},
+        breakpoint: {max: 464, min: 0},
         items: 1,
         slidesToSlide: 1 // optional, default to 1.
     }
@@ -24,43 +24,109 @@ const responsive = {
 function App() {
     return (
         <div className="db-page">
-            <div className="db-body">
+            <div className="db-body db-body_cards">
+                <div className="school-cards-header">VeloFreund</div>
+                <div className="school-cards-subheader">Gebiete, für die du Statistiken und infos erhalten möchtest</div>
                 <div className="db-carousel-container">
-                <Carousel
-                    swipeable={true}
-                    draggable={true}
-                    showDots={true}
-                    responsive={responsive}
-                    ssr={true} // means to render carousel on server-side.
-                    infinite={true}
-                    autoPlay={false}
-                    autoPlaySpeed={1000}
-                    keyBoardControl={true}
-                    customTransition="all .5"
-                    transitionDuration={500}
-                    containerClass="carousel-container"
-                    removeArrowOnDeviceType={["tablet"]}
-                    deviceType="mobile"
-                    dotListClass="custom-dot-list-style"
-                    itemClass="carousel-item-padding-40-px"
-                >
-                    {/*<a href="/rad-school">*/}
-                        <div className="db-card">card 1</div>
-                    {/*</a>*/}
-                    {/*<a href="/rad-school">*/}
-                        <div className="db-card">card 2</div>
-                    {/*</a>*/}
-                </Carousel>
+                    <Carousel
+                        swipeable={true}
+                        draggable={true}
+                        showDots={true}
+                        responsive={responsive}
+                        ssr={true} // means to render carousel on server-side.
+                        infinite={false}
+                        autoPlay={false}
+                        autoPlaySpeed={1000}
+                        keyBoardControl={true}
+                        customTransition="all .5"
+                        transitionDuration={500}
+                        containerClass="carousel-container"
+                        removeArrowOnDeviceType={["tablet", "mobile"]}
+                        deviceType="mobile"
+                        dotListClass="custom-dot-list-style"
+                        itemClass="carousel-item-padding-40-px"
+                    >
+                        <a href="/rad-school">
+                            <div className="db-card">
+                                <div className="top">Alle Schulen</div>
+
+                                <div className="point">
+                                    <div className="point-icon"><img src="/icons/gesamt.png"></img></div>
+                                    <div className="point-text-container">
+                                        <div className="point-text-header">Gesamt</div>
+                                        <div className="point-text-value">50.000 km</div>
+                                    </div>
+                                </div>
+                                <div className="point">
+                                    <div className="point-icon"><img src="/icons/platz.png"></img></div>
+                                    <div className="point-text-container">
+                                        <div className="point-text-header">Gesamt</div>
+                                        <div className="point-text-value">Platz 2</div>
+                                    </div>
+                                </div>
+                                <div className="point">
+                                    <div className="point-icon"><img src="/icons/meine.png"></img></div>
+                                    <div className="point-text-container">
+                                        <div className="point-text-header">Meine</div>
+                                        <div className="point-text-value">1.349 km</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/rad-school?view=person">
+                            <div className="db-card">
+                                <div className="top">Leonardo-da-Vinci-Gesamtschule</div>
+
+                                <div className="point">
+                                    <div className="point-icon"><img src="/icons/gesamt.png"></img></div>
+                                    <div className="point-text-container">
+                                        <div className="point-text-header">Gesamt</div>
+                                        <div className="point-text-value">1.349 km</div>
+                                    </div>
+                                </div>
+                                <div className="point">
+                                    <div className="point-icon"><img src="/icons/platz.png"></img></div>
+                                    <div className="point-text-container">
+                                        <div className="point-text-header">Gesamt</div>
+                                        <div className="point-text-value">Platz 28</div>
+                                    </div>
+                                </div>
+                                <div className="point">
+                                    <div className="point-icon"><img src="/icons/meine.png"></img></div>
+                                    <div className="point-text-container">
+                                        <div className="point-text-header">Meine</div>
+                                        <div className="point-text-value">66 km</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </Carousel>
                 </div>
-        </div>
+                <div className="mock-point">
+                    <div className="mock-point-icon">
+                        ?
+                    </div>
+                    <div className="mock-point-text">
+                        Fragen
+                    </div>
+                </div>
+                <div className="mock-point">
+                    <div className="mock-point-icon">
+                        !
+                    </div>
+                    <div className="mock-point-text">
+                        Antworten
+                    </div>
+                </div>
+            </div>
 
             <div className="db-footer">
-                <img src="/icons/rad_red.png"></img>
+                <a href="/rad"><img src="/icons/rad.png"></img></a>
                 <a href="/rad-map"><img src="/icons/map.png"></img></a>
                 <img src="/icons/geld.png"></img>
                 <img src="/icons/kauf.png"></img>
                 <a href="/rad-school-cards">
-                    <svg className="school-icon" enable-background="new 0 0 800 800" height="52px" version="1.1"
+                    <svg className="school-icon red" enable-background="new 0 0 800 800" height="52px" version="1.1"
                          viewBox="0 0 800 800" width="52px">
                         <g>
                             <path

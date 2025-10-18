@@ -111,6 +111,7 @@ function App() {
     const [searchParams] = useSearchParams();
 
     const school = decodeURIComponent(searchParams.get("school") || '')
+    const isPersonView = decodeURIComponent(searchParams.get("view") || '') === 'person'
     console.log('school', school)
     const mySchoolName = school || "Leonardo-da-Vinci-Gesamtschule"
     let mySchoolPlatz = 0;
@@ -118,6 +119,49 @@ function App() {
         if (element.name === mySchoolName) mySchoolPlatz = element.ranking;
     })
     let nextRowKlein = false
+
+    const schoolResultsTable = <div key="schooltable" className="db-body">
+        <div className="school-name school-name_school">{mySchoolName}</div>
+        <div className="ranking">Platz {mySchoolPlatz}</div>
+        <div className="rank-table">
+            {schulenRanked.map(rank => {
+                let rowClassName = rank.name === mySchoolName ? "rank-table-row rank-table-row_schools rank-table-row_me" : "rank-table-row rank-table-row_schools"
+                rowClassName = nextRowKlein ? rowClassName + " rank-table-row_kleintmp" : rowClassName
+                if (rank.ranking === 4 && mySchoolPlatz > 8) { nextRowKlein = true; return (<div className="line"></div>)}
+                if (rank.ranking < 4 || Math.abs(rank.ranking-mySchoolPlatz) < 5) {
+                    nextRowKlein = false
+                    return (
+                        <div className={rowClassName}>
+                            <div className="rank-table-platz">{rank.ranking}.</div>
+                            <div className="rank-table-name rank-table-name_schools">{rank.name}</div>
+                            <div
+                                className="rank-table-km rank-table-km_schools">{(81 - rank.ranking) * 17 + Math.round(Math.random() * 10)} km
+                            </div>
+                        </div>)
+                }
+            })}
+        </div>
+    </div>
+    const personResultsTable = <div key="perstable" className="db-body">
+        <div className="school-name">VeloFreund</div>
+        <div className="ranking">Platz 28</div>
+        <div className="rank-table">
+            {rankData.map(rank => {
+                if (rank.linie) return (
+                    <div className="line"></div>
+                )
+                const rowClassName = rank.isMe ? "rank-table-row rank-table-row_me" : "rank-table-row"
+                return (
+                    <div className={rowClassName}>
+                        <div className="rank-table-platz">{rank.platz}.</div>
+                        <div className="rank-table-name">{rank.name}</div>
+                        <div className="rank-table-km">{rank.weg} km</div>
+                    </div>)
+            })}
+        </div>
+    </div>
+
+    const resultsArray = isPersonView ? [personResultsTable, schoolResultsTable] : [schoolResultsTable, personResultsTable];
     return (
         <div className="db-page">
             <Carousel
@@ -138,46 +182,7 @@ function App() {
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
             >
-                <div className="db-body">
-                    <div className="school-name school-name_school">{mySchoolName}</div>
-                    <div className="ranking">Platz {mySchoolPlatz}</div>
-                    <div className="rank-table">
-                        {schulenRanked.map(rank => {
-                            let rowClassName = rank.name === mySchoolName ? "rank-table-row rank-table-row_schools rank-table-row_me" : "rank-table-row rank-table-row_schools"
-                            rowClassName = nextRowKlein ? rowClassName + " rank-table-row_kleintmp" : rowClassName
-                            if (rank.ranking === 4 && mySchoolPlatz > 8) { nextRowKlein = true; return (<div className="line"></div>)}
-                            if (rank.ranking < 4 || Math.abs(rank.ranking-mySchoolPlatz) < 5) {
-                                nextRowKlein = false
-                                return (
-                                    <div className={rowClassName}>
-                                        <div className="rank-table-platz">{rank.ranking}.</div>
-                                        <div className="rank-table-name rank-table-name_schools">{rank.name}</div>
-                                        <div
-                                            className="rank-table-km rank-table-km_schools">{(81 - rank.ranking) * 17 + Math.round(Math.random() * 10)} km
-                                        </div>
-                                    </div>)
-                            }
-                        })}
-                    </div>
-                </div>
-                <div className="db-body">
-                    <div className="school-name">VeloFreund</div>
-                    <div className="ranking">Platz 28</div>
-                    <div className="rank-table">
-                        {rankData.map(rank => {
-                            if (rank.linie) return (
-                                <div className="line"></div>
-                            )
-                            const rowClassName = rank.isMe ? "rank-table-row rank-table-row_me" : "rank-table-row"
-                            return (
-                                <div className={rowClassName}>
-                                    <div className="rank-table-platz">{rank.platz}.</div>
-                                    <div className="rank-table-name">{rank.name}</div>
-                                    <div className="rank-table-km">{rank.weg} km</div>
-                                </div>)
-                        })}
-                    </div>
-                </div>
+                {...resultsArray}
             </Carousel>
             <div className="db-footer">
                 <a href="/rad"><img src="/icons/rad.png"></img></a>

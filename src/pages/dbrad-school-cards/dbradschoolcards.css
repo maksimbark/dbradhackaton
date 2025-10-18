@@ -70,19 +70,115 @@ body {
     margin: 0 5px 4px 5px;
     fill: #7b827a;
 }
-
-.db-card {
+.mock-point {
     display: flex;
-    width: 80vw;
-    height: 200px;
+    align-items: center;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.mock-point-text {
+    font-size: 20px;
+}
+.mock-point-icon {
+    width: 55px;
+    height: 55px;
+    margin-right: 15px;
+    color: white;
+    background-color: #ec0016;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    font-family: "DB Sans";
+    font-weight: bold;
+}
+.db-card {
+    .top {
+        font-family: "DB Head";
+        margin-bottom: 16px;
+    }
+
+    .point-icon {
+        margin-left: -15px;
+    }
+
+    padding: 16px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 270px;
 
     background-color: #ec0016;
     border-radius: 15px;
-    margin: 10px;
+    /*margin: 10px;*/
+}
+
+.point-text-value {
+    font-family: "DB Head";
+    font-size: 34px;
+    margin-top: -10px;
+}
+
+.db-card2 {
+    background-color: green;
+}
+
+.db-carousel-container li.react-multi-carousel-item {
+    margin-left: 4px;
+    flex-shrink: 0;
 }
 
 .db-carousel-container {
     width: 100%;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.red {
+    fill: #ec0016;
+}
+
+.db-body.db-body_cards {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.db-carousel-container a {
+    color: white;
+}
+.db-carousel-container a:visited {
+    color: white;
+}
+.db-carousel-container a:hover {
+    color: white;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+}
+.point-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.school-cards-header {
+    font-family: "DB Head";
+    font-size: 34px;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.school-cards-subheader {
+    font-size: 25px;
+    align-self: flex-start;
+    margin-left: 10px;
+    max-width: 90vw;
 }
 
 @font-face {
