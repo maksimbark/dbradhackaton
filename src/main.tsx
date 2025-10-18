@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')!).render(
     <StrictMode>
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<App/>}/>
+                <Route path="/" element={<Dbrad/>}/>
                 <Route path="map" element={<Map/>}/>
                 <Route path="rad" element={<Dbrad/>}/>
                 <Route path="rad-map" element={<DbradMap/>}/>
